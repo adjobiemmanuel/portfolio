@@ -1,0 +1,12 @@
+{
+  "projet": [
+    {
+      "id": 1,
+      "titre": "WEBINAR",
+      "description": "Un lieu pour accéder à tous les webinars en cote d'ivoire.",
+      "image":"/Webinar.png",
+      "tech":"React js",
+      "lien":"https://manoublog.github.io/webinar/"
+    }
+  ]
+}

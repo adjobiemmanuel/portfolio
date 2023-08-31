@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import router from "./routes"
 import reportWebVitals from './reportWebVitals';
+
+import ModeContext from "./context/ModeContext"
+
+import {
+  RouterProvider,
+} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ModeContext>
+    <RouterProvider router={router} />
+    </ModeContext>
+    
   </React.StrictMode>
 );
 
